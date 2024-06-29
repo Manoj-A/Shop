@@ -17,7 +17,7 @@
             margin-left: 20px; /* Adjust the margin as needed */
             font-size: 48px; /* Adjust the font size as needed */
         }
-        .qr-code {
+        .qrcode {
             margin-top: 20px;
         }
         .centered {
@@ -32,14 +32,14 @@
         <h1>SHOP</h1>
     </div>
     <!-- QR code will be generated here -->
-    <div id="qrcode" class="qr-code"></div>
+    <div id="qrcode" class="qrcode"></div>
 
     <!-- Include the qrcode.js library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script>
         // Function to generate the QR code
         function generateQRCode() {
-            var url = "https://manoj-a.github.io/qrcode/enquire.html"; // Replace with your hosted URL
+            var url = "https://github.com/Manoj-A/SHOP.html"; // Replace with your hosted URL
             var qrcode = new QRCode(document.getElementById("qrcode"), {
                 text: url,
                 width: 400, // Set the desired width of the QR code
